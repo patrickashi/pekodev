@@ -8,7 +8,7 @@ const Secsix = () => {
         threshold: 0.1, // Adjust based on when you want the animation to start
     });
     return (
-        <div className="bg-[#2C2713] w-full py-20 px-2 md:px-10 lg:px-16 text-white">
+        <div className="bg-[#9333ea] w-full py-20 px-2 md:px-10 lg:px-16 text-white">
             <h2 className="mb-8 font-bold text-center">OUR HAPPY PATRONS</h2>
             <h2 
             ref={ref}

@@ -11,7 +11,7 @@ const Sectwo = () => {
         threshold: 0.1, // Adjust based on when you want the animation to start
     });
     return (
-        <div className="bg-[#FFFEED] w-full pt-32 pb-24 px-2 md:px-10 lg:px-16">
+        <div className="bg-[#9333ea] text-white w-full pt-32 pb-24 px-2 md:px-10 lg:px-16">
            <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="w-full md:w-[700px]">
                     <h2 className="text-2xl">About our company</h2>
@@ -21,7 +21,7 @@ const Sectwo = () => {
                     <p>This is the space to introduce visitors to the business or brand. Briefly explain who's behind it,
                         what it does and what makes it unique. Share its core values and what this site has to offer.
                     </p>
-                    <button className="bg-[#171200] text-white px-4 py-2 rounded-lg mt-4">READ MORE</button>
+                    <button className="bg-[#f35e5e] text-white px-4 py-2 rounded-lg mt-4">READ MORE</button>
                 </div>
                 <div
                    ref={ref}
