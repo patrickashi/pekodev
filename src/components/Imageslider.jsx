@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import renovation1 from "../Assets/renovation1.jpg";
-import renovation2 from "../Assets/renovation2.jpg";
-import renovation3 from "../Assets/renovation3.jpg";
-import renovation4 from "../Assets/renovation4.jpg";
-import renovation5 from "../Assets/renovation5.jpg";
-import renovation6 from "../Assets/renovation6.jpg";
-import renovation7 from "../Assets/renovation7.jpg";
+import webapp01 from "../Assets/webapp01.jpg";
 
-const images = [renovation1, renovation2, renovation3, renovation4, renovation5, renovation6, renovation7];
+const images = [renovation1, webapp01];
 
 const Imageslider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

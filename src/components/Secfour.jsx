@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import Imageslider from "./Imageslider";
 
 
+
 const Secfour = () => {
     const { ref, inView } = useInView({
         triggerOnce: true, // Trigger animation only once

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './animations.css';
+import pekodevbg from "../Assets/pekodevbg.jpg";
 
 const Secone = () => {
     const [showContent, setShowContent] = useState(false);
@@ -9,14 +10,18 @@ const Secone = () => {
     }, []);
 
     return (
-        <div className="h-screen relative w-full overflow-hidden text-black ">
-            <div className="relative z-10 pt-40 px-2 md:px-10 lg:px-16 w-full md:w-120">
+        <div className="h-full flex flex-col md:flex-row w-full  text-black ">
+            <div className="pt-40 px-2 md:px-10 lg:px-16 ">
                 <h2 className={`text-4xl mb-4 md:text-6xl ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Empowering Your</h2>
                 <h2 className={`text-4xl mb-4 md:text-6xl ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Digital Vision</h2>
                 
-                <p className={`my-6 text-xl mt-20 md:mt-4 font-thin font ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
+                <p className={`my-6 text-xl mt-10 md:mt-4 font-thin font ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
         
-                <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-40 md:mt-10">GET A QUOTE</button>
+                <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10">GET A QUOTE</button>
+            </div>
+
+            <div className='flex py-10 md:py-20 px-2 md:px-20'>
+                <img src={pekodevbg} className='flex justify-center mt-10 ml-0 md:ml-16 w-full md:w-80 h-100 rounded-md' alt="bg" />
             </div>
         </div>
     )

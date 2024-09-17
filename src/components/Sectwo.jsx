@@ -2,6 +2,7 @@ import React from "react"
 import { useInView } from 'react-intersection-observer';
 import './animations.css';
 import renovation3 from "../Assets/renovation3.jpg";
+import pekodevbg from "../Assets/pekodevbg.jpg";
 
 const Sectwo = () => {
     
@@ -26,7 +27,7 @@ const Sectwo = () => {
                 <div
                    ref={ref}
                    className={`transition-opacity duration-1000 ease-in-out flex justify-end w-full mt-10 md:mt-0 ${inView ? 'slide-in-from-bottom' : 'opacity-0'}`}>
-                    <img src={renovation3} alt="img" className="w-full md:w-[500px] h-[500px] object-cover rounded-lg" />
+                    <img src={pekodevbg} alt="img" className="w-full md:w-[500px] h-[500px] object-cover rounded-lg" />
                 </div>
            </div>
         </div>
