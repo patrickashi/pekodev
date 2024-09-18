@@ -20,7 +20,7 @@ const Secone = () => {
                 <p className={`my-6 text-xl mt-10 md:mt-4 font-thin font ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
 
                 <Link to="/Quotep">
-                    <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex">GET A QUOTE<MdArrowOutward className="font-thin" size={20}/></button>
+                    <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex">GET A QUOTE<MdArrowOutward size={20}/></button>
                 </Link>
                 
             </div>

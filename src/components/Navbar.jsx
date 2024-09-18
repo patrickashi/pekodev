@@ -51,7 +51,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Aboutusp">About us</Link>
                     </li>
-                    <li className=" flex  p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg" >
+                    <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg" >
                         <Link to="/Quotep" className="flex ">
                             <div>GET A QUOTE </div>
                             <MdArrowOutward className="" size={20}/>
@@ -102,7 +102,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </ul>
                 <div className="ml-2" onClick={() => { handleLinkClick() }}>
                     <Link to="/Quotep">
-                        <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10">GET A QUOTE</button>
+                        <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex ">GET A QUOTE<MdArrowOutward size={20}/></button>
                     </Link>
                 </div>
 
