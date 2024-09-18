@@ -10,6 +10,7 @@ import { FaTiktok } from "react-icons/fa";
 import { FaRegFileCode } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { TiGroup } from "react-icons/ti";
+import { MdArrowOutward } from "react-icons/md";
 
 
 
@@ -50,8 +51,11 @@ const  Navbar = ({ handleContactClick, location }) => {
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Aboutusp">About us</Link>
                     </li>
-                    <li className="p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg" >
-                        <Link to="/Quotep">Get a Quote</Link>
+                    <li className=" flex  p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg" >
+                        <Link to="/Quotep" className="flex ">
+                            <div>GET A QUOTE </div>
+                            <MdArrowOutward className="" size={20}/>
+                        </Link>
                     </li>
                     
                 </ul>
@@ -105,22 +109,22 @@ const  Navbar = ({ handleContactClick, location }) => {
                 <div className="flex gap-8 mb-auto ml-2 items-bottom mt-10">
                     <div>
                         <a href="http://wa.me/2347038905049">
-                            <FaWhatsapp className="mt-1 mr-1 text-emerald-700" />
+                            <FaWhatsapp className="mt-1 mr-1 text-emerald-700" size={30} />
                         </a>
                     </div>
                     <div>
                         <a href="https://www.instagram.com/patrickpeko_">
-                            <FaInstagram className="mt-1 mr-1 text-red-600"/>
+                            <FaInstagram className="mt-1 mr-1 text-red-600" size={30}/>
                         </a>
                     </div>
                     <div>
                         <a href="https://www.TikTok.com/@patrickpeko_">
-                            <FaTiktok className="mt-1 mr-1"/>
+                            <FaTiktok className="mt-1 mr-1" size={30}/>
                         </a>
                     </div>
                     <div>
                         <a href="https://www.youtube.com/@patrickpeko">
-                            <FaYoutube className="mt-1 mr-1 text-red-600"/>
+                            <FaYoutube className="mt-1 mr-1 text-red-600" size={30}/>
                         </a>
                     </div>
                 </div>

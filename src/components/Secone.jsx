@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 import './animations.css';
 import pekodevbg from "../Assets/pekodevbg.jpg";
+import { MdArrowOutward } from "react-icons/md";
 
 const Secone = () => {
     const [showContent, setShowContent] = useState(false);
@@ -16,8 +18,11 @@ const Secone = () => {
                 <h2 className={`text-4xl mb-4 md:text-6xl ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Digital Vision</h2>
                 
                 <p className={`my-6 text-xl mt-10 md:mt-4 font-thin font ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
-        
-                <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10">GET A QUOTE</button>
+
+                <Link to="/Quotep">
+                    <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex">GET A QUOTE<MdArrowOutward className="font-thin" size={20}/></button>
+                </Link>
+                
             </div>
 
             <div className='flex py-10 md:py-20 px-2 md:px-20'>

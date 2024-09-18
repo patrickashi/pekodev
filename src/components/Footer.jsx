@@ -15,8 +15,8 @@ const Footer = () => {
     return (
         <div className="duration-200 text-black ">
             <div className="flex gap-16 flex-col px-2 md:px-10 lg:px-16 py-10 md:flex-row bg-[#e9d5ff] justify-between pb-4">
-                <div>
-                    <div className="flex align-middle hover:text-black ">
+                <div className="">
+                    <div className="flex align-middle justify-end hover:text-black ">
                         <img src={pekodevnew} className="w-40" alt="logo" />
                     </div>
                 </div>
