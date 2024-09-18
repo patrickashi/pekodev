@@ -3,6 +3,13 @@ import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 // import blackbullLogo from "../Assets/blackbullLogo.jpg"
 import { Link } from "react-router-dom";
 import pekodevnew from "../Assets/pekodevnew.png";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { FaRegFileCode } from "react-icons/fa";
+import { GrProjects } from "react-icons/gr";
+import { TiGroup } from "react-icons/ti";
 
 
 
@@ -66,19 +73,57 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </div>
 
                 <ul className="flex flex-col p-4 my-6 gap-16 text-black">
-                    <li className="p-4 border-l border-blue-600" onClick={() => { handleLinkClick() } }>
-                    <Link to="/Servicesp">Services</Link>
+                    <li className="" onClick={() => { handleLinkClick() } }>
+                        <div className="flex align-middle">
+                            <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/>
+                            <Link to="/Servicesp">Services</Link>
+                        </div>
                     </li>
-                    <li className="p-4 border-l border-green-600" onClick={() => { handleLinkClick() } }>
-                        <Link to="/Projectsp">Projects</Link>
+                    <li className="" onClick={() => { handleLinkClick() } }>
+                        <div className="flex align-middle">
+                            <GrProjects className="mt-1 mr-1 text-emerald-500 "/>
+                            <Link to="/Projectsp">Projects</Link>
+                        </div>
+                        
                     </li>
-                    <li className="p-4 border-l border-red-600" onClick={() => { handleLinkClick() } }>
-                        <Link to="/Aboutusp">About us</Link> 
+                    <li className="" onClick={() => { handleLinkClick() } }>
+                        <div className="flex align-middle">
+                            <TiGroup className="mt-1 mr-1 text-slate-800 "/>
+                            <Link to="/Aboutusp">About us</Link> 
+                        </div>
                     </li>
-                    <li className="p-4 border-l border-pink-600" onClick={() => { handleLinkClick() }}>
-                        <Link to="/Quotep">Get a Quote</Link>
+                    <li >
+
                     </li>
                 </ul>
+                <div className="ml-2" onClick={() => { handleLinkClick() }}>
+                    <Link to="/Quotep">
+                        <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10">GET A QUOTE</button>
+                    </Link>
+                </div>
+
+                <div className="flex gap-8 mb-auto ml-2 items-bottom mt-10">
+                    <div>
+                        <a href="http://wa.me/2347038905049">
+                            <FaWhatsapp className="mt-1 mr-1 text-emerald-700" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/patrickpeko_">
+                            <FaInstagram className="mt-1 mr-1 text-red-600"/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.TikTok.com/@patrickpeko_">
+                            <FaTiktok className="mt-1 mr-1"/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/@patrickpeko">
+                            <FaYoutube className="mt-1 mr-1 text-red-600"/>
+                        </a>
+                    </div>
+                </div>
 
                
             </div>

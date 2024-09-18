@@ -4,6 +4,12 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdCall } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
+import { FaRegFileCode } from "react-icons/fa";
+import { GrProjects } from "react-icons/gr";
+import { TiGroup } from "react-icons/ti";
 
 const Footer = () => {
     return (
@@ -17,19 +23,54 @@ const Footer = () => {
                 <div>
                     <h1 className="font-bold mb-4">Menu</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>Services</li>
-                        <li>Projects</li>
-                        <li>About us</li>
+                        <li>
+                            <div className="flex align-middle">
+                                <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/>
+                                Services
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex align-middle">
+                                <GrProjects className="mt-1 mr-1 text-emerald-500 "/>
+                                Projects
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex align-middle">
+                                <TiGroup className="mt-1 mr-1 text-slate-800 "/>
+                                About us
+                            </div>
+                        </li>
                     </ul>
                 </div>
                
                 <div>
                     <h1 className="font-bold mb-4">Contact</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>Ministry of works Ogoja</li>
-                        <li>Cross river Nigeria.</li>
-                        <li>+234 70 3890 5049</li>
-                        <li>patrickpeko1@gmail.com</li>
+                        <li>
+                            <div className="flex align-middle">
+                                <FaLocationDot className="mt-1 mr-1 text-green-400"/>
+                                Ministry of works ogoja
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex align-middle ">
+                                <FaLocationDot className="mt-1 mr-1 text-green-400"/>
+                                Cross river Nigeria.
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex align-middle ">
+                                <MdCall className="mt-1 mr-1 text-gold"/>
+                                +234 70 3890 5049
+                            </div>
+                        </li>
+                        <li>
+                            <div className="flex align-middle ">
+                                <CiMail className="mt-1 mr-1 text-sky-800"/>
+                                patrickpeko1@gmail.com
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div>
