@@ -1,6 +1,7 @@
 import React from "react"
 import renovation3 from "../Assets/renovation3.jpg";
 import { useInView } from 'react-intersection-observer';
+import pekodevbg from "../Assets/pekodevbg.jpg";
 
 const Aboutusp = () => {
     const { ref, inView } = useInView({
@@ -8,7 +9,7 @@ const Aboutusp = () => {
         threshold: 0.1, // Adjust based on when you want the animation to start
     });
     return(
-        <div className="bg-[#FFFEED] w-full pt-32  ">
+        <div className="w-full pt-32  ">
            <div className="flex flex-col md:flex-row justify-between items-center px-2 md:px-10 lg:px-16 pb-24">
                 <div className="w-full md:w-[700px]">
                     <h2 className="text-2xl">About Us</h2>
@@ -24,24 +25,24 @@ const Aboutusp = () => {
                     
                 </div>
                 <div className="transition-opacity duration-1000 ease-in-out flex justify-end w-full mt-10 md:mt-0">
-                    <img src={renovation3} alt="img" className="w-full md:w-[500px] h-[500px] object-cover rounded-lg" />
+                    <img src={pekodevbg} alt="img" className="w-full md:w-[500px] h-[500px] object-cover rounded-lg" />
                 </div>
            </div>
 
-           <div className="transition-opacity duration-1000 bg-[#D6CEAD] ease-in-out flex flex-col md:flex-row gap-4 text-white  justify-between py-20 px-2 md:px-10 lg:px-16">
-                <div className="flex justify-start flex-col  bg-[#584E26] py-20 px-10 rounded-md">
+           <div className="transition-opacity duration-1000 bg-[#e9d5ff] ease-in-out flex flex-col md:flex-row gap-4 text-white  justify-between py-20 px-2 md:px-10 lg:px-16">
+                <div className="flex justify-start flex-col  bg-[#9333ea] py-20 px-10 rounded-md">
                     <h2 className="font-bold mb-6">OUR SERVICES</h2>
                     <p>This is the space to introduce visitors to the business or brand. Briefly explain who's behind it, what it does and
                         what makes it unique. Share its core values and what this site has to offer.
                     </p>
                 </div>
-                <div className="flex justify-start flex-col bg-[#584E26] py-20 px-10 rounded-md">
+                <div className="flex justify-start flex-col bg-[#9333ea] py-20 px-10 rounded-md">
                     <h2 className="font-bold mb-6">EXPERIENCE</h2>
                     <p>This is the space to introduce visitors to the business or brand. Briefly explain who's behind it,
                         what it does and what makes it unique. Share its core values and what this site has to offer.
                     .</p>
                 </div>
-                <div className="flex justify-start flex-col bg-[#584E26] py-20 px-10 rounded-md">
+                <div className="flex justify-start flex-col bg-[#9333ea] py-20 px-10 rounded-md">
                     <h2 className="font-bold mb-6">ACCOUNTABILITY</h2>
                     <p>This is the space to introduce visitors to the business or brand. Briefly explain who's behind it,
                         what it does and what makes it unique. Share its core values and what this site has to offer.
@@ -49,7 +50,7 @@ const Aboutusp = () => {
                 </div>
             </div>
 
-            <div className="bg-[#2C2713] w-full py-20 px-2 md:px-10 lg:px-16 text-white">
+            <div className="bg-[#9333ea] w-full py-20 px-2 md:px-10 lg:px-16 text-white">
             <h2 className="mb-8 font-bold text-center">TESTIMONIALS</h2>
             <h2 
             ref={ref}
@@ -85,7 +86,7 @@ const Aboutusp = () => {
                     
                 </div>
                 <div className="transition-opacity duration-1000 ease-in-out flex justify-end w-full mt-10 md:mt-0">
-                    <img src={renovation3} alt="img" className="w-full md:w-[500px] h-[500px] object-cover rounded-lg" />
+                    <img src={pekodevbg} alt="img" className="w-full md:w-[500px] h-[500px] object-cover rounded-lg" />
                 </div>
            </div>
 
