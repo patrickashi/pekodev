@@ -106,25 +106,25 @@ const  Navbar = ({ handleContactClick, location }) => {
                     </Link>
                 </div>
 
-                <div className="flex gap-8 mb-auto ml-2 items-bottom mt-10">
+                <div className="flex gap-10 mb-auto ml-2 items-bottom mt-10">
                     <div>
                         <a href="http://wa.me/2347038905049">
-                            <FaWhatsapp className="mt-1 mr-1 text-emerald-700" size={30} />
+                            <FaWhatsapp className="mt-1 mr-1 text-emerald-700" size={20} />
                         </a>
                     </div>
                     <div>
                         <a href="https://www.instagram.com/patrickpeko_">
-                            <FaInstagram className="mt-1 mr-1 text-red-600" size={30}/>
+                            <FaInstagram className="mt-1 mr-1 text-red-600" size={20}/>
                         </a>
                     </div>
                     <div>
                         <a href="https://www.TikTok.com/@patrickpeko_">
-                            <FaTiktok className="mt-1 mr-1" size={30}/>
+                            <FaTiktok className="mt-1 mr-1" size={20}/>
                         </a>
                     </div>
                     <div>
                         <a href="https://www.youtube.com/@patrickpeko">
-                            <FaYoutube className="mt-1 mr-1 text-red-600" size={30}/>
+                            <FaYoutube className="mt-1 mr-1 text-red-600" size={20}/>
                         </a>
                     </div>
                 </div>

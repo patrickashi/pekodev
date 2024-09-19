@@ -19,8 +19,9 @@ const Sectwo = () => {
                     <h2
                      ref={ref}
                      className={`transition-opacity duration-1000 ease-in-out text-4xl my-6 ${inView ? 'slide-in-from-left' : 'opacity-0'}`}>We provide professional solutions to deliver safe & efficient projects</h2>
-                    <p>This is the space to introduce visitors to the business or brand. Briefly explain who's behind it,
-                        what it does and what makes it unique. Share its core values and what this site has to offer.
+                    <p>Welcome to pekodev, where we create custom websites and web applications tailored to your needs.
+                        Our team is dedicated to delivering high-quality, visually appealing, and user-friendly digital solutions.
+                        Let's bring your vision to life with creativity and integrity.
                     </p>
                     <button className="bg-[#f35e5e] text-white px-4 py-2 rounded-lg mt-4">READ MORE</button>
                 </div>

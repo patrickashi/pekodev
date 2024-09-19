@@ -17,10 +17,10 @@ const Secsix = () => {
                ref={ref}
                className={`transition-opacity duration-1000 ease-in-out flex flex-col md:flex-row gap-4 text-white  justify-between items-center ${inView ? 'slide-in-from-bottom' : 'opacity-0'}`}>
                 
-                <div>.</div>
-                <div>.</div>
-                <div>.</div>
-                <div>.</div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
 
                 
             </div>
