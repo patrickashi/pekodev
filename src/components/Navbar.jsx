@@ -43,13 +43,13 @@ const  Navbar = ({ handleContactClick, location }) => {
             <div>
                 <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-black mx-auto  ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Servicesp">Services</Link>
+                        <Link to="/Aboutusp">About us</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Projectsp">Projects</Link>
                     </li>
                     <li className="p-4 hover:underline hover:cursor-pointer">
-                        <Link to="/Aboutusp">About us</Link>
+                        <Link to="/Servicesp">Services</Link>
                     </li>
                     <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg" >
                         <Link to="/Quotep" className="flex ">
@@ -79,8 +79,8 @@ const  Navbar = ({ handleContactClick, location }) => {
                 <ul className="flex flex-col p-4 my-6 gap-16 text-black">
                     <li className="" onClick={() => { handleLinkClick() } }>
                         <div className="flex align-middle">
-                            <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/>
-                            <Link to="/Servicesp">Services</Link>
+                            <TiGroup className="mt-1 mr-1 text-slate-800 "/>
+                            <Link to="/Aboutusp">About us</Link> 
                         </div>
                     </li>
                     <li className="" onClick={() => { handleLinkClick() } }>
@@ -88,12 +88,11 @@ const  Navbar = ({ handleContactClick, location }) => {
                             <GrProjects className="mt-1 mr-1 text-emerald-500 "/>
                             <Link to="/Projectsp">Projects</Link>
                         </div>
-                        
                     </li>
                     <li className="" onClick={() => { handleLinkClick() } }>
                         <div className="flex align-middle">
-                            <TiGroup className="mt-1 mr-1 text-slate-800 "/>
-                            <Link to="/Aboutusp">About us</Link> 
+                            <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/>
+                            <Link to="/Servicesp">Services</Link>
                         </div>
                     </li>
                     <li >

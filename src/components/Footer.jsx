@@ -23,24 +23,30 @@ const Footer = () => {
                 <div>
                     <h1 className="font-bold mb-4">Menu</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>
-                            <div className="flex align-middle">
-                                <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/>
-                                Services
-                            </div>
-                        </li>
-                        <li>
-                            <div className="flex align-middle">
-                                <GrProjects className="mt-1 mr-1 text-emerald-500 "/>
-                                Projects
-                            </div>
-                        </li>
-                        <li>
-                            <div className="flex align-middle">
-                                <TiGroup className="mt-1 mr-1 text-slate-800 "/>
-                                About us
-                            </div>
-                        </li>
+                        <a href="/Aboutusp">
+                            <li>
+                                <div className="flex align-middle">
+                                    <TiGroup className="mt-1 mr-1 text-slate-800 "/>
+                                    About us
+                                </div>
+                            </li>
+                        </a>
+                        <a href="/Projectsp">
+                            <li>
+                                <div className="flex align-middle">
+                                    <GrProjects className="mt-1 mr-1 text-emerald-500 "/>
+                                    Projects
+                                </div>
+                            </li>
+                        </a>
+                        <a href="/Servicesp">
+                            <li>
+                                <div className="flex align-middle">
+                                    <FaRegFileCode className="mt-1 mr-1 text-purple-800 "/>
+                                    Services
+                                </div>
+                            </li>
+                        </a>
                     </ul>
                 </div>
                
