@@ -14,15 +14,15 @@ const Secthree = () => {
                ref={ref}
                className={`transition-opacity duration-1000 ease-in-out flex flex-col md:flex-row gap-4 text-white font-bold justify-between ${inView ? 'slide-in-from-bottom' : 'opacity-0'}`}>
                 <div className="flex justify-center flex-col text-center bg-[#9333ea] py-20 px-20 rounded-md">
-                    <h2 className="text-6xl">26</h2>
+                    <h2 className="text-6xl">74</h2>
                     <p>Current Projects</p>
                 </div>
                 <div className="flex justify-center flex-col text-center bg-[#9333ea] py-20 px-20 rounded-md">
-                    <h2 className="text-6xl">180</h2>
+                    <h2 className="text-6xl">64</h2>
                     <p>Websites Maintained</p>
                 </div>
                 <div className="flex justify-center flex-col text-center bg-[#9333ea] py-20 px-20 rounded-md">
-                    <h2 className="text-6xl">28</h2>
+                    <h2 className="text-6xl">22</h2>
                     <p>Valued Partners</p>
                 </div>
             </div>
