@@ -1,6 +1,7 @@
 import React from "react"
 import { useInView } from 'react-intersection-observer';
 import './animations.css';
+import '@fontsource/luckiest-guy';
 
 const Secthree = () => {
     const { ref, inView } = useInView({
@@ -9,7 +10,7 @@ const Secthree = () => {
     });
     return (
         <div className="bg-white w-full pt-32 pb-24 px-2 md:px-10 lg:px-16">
-            <h2 className="mb-14 font-bold">US IN NUMBERS</h2>
+            <h2 className="mb-14 font-luckiest text-4xl">US IN NUMBERS</h2>
             <div
                ref={ref}
                className={`transition-opacity duration-1000 ease-in-out flex flex-col md:flex-row gap-4 text-white font-bold justify-between ${inView ? 'slide-in-from-bottom' : 'opacity-0'}`}>

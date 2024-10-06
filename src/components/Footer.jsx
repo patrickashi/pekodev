@@ -10,6 +10,7 @@ import { CiMail } from "react-icons/ci";
 import { FaRegFileCode } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { TiGroup } from "react-icons/ti";
+import '@fontsource/luckiest-guy';
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Menu</h1>
+                    <h1 className=" mb-4 font-luckiest">Menu</h1>
                     <ul className="flex flex-col gap-2">
                         <a href="/Aboutusp">
                             <li>
@@ -51,7 +52,7 @@ const Footer = () => {
                 </div>
                
                 <div>
-                    <h1 className="font-bold mb-4">Contact</h1>
+                    <h1 className="font-luckiest mb-4">Contact</h1>
                     <ul className="flex flex-col gap-2">
                         <li>
                             <div className="flex align-middle">
@@ -80,7 +81,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Social</h1>
+                    <h1 className="font-luckiest mb-4">Social</h1>
                     <ul className="flex flex-col gap-2">
                         <a href="http://wa.me/2347038905049">
                             <li>

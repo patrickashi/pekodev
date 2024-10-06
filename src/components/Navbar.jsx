@@ -11,6 +11,7 @@ import { FaRegFileCode } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { TiGroup } from "react-icons/ti";
 import { MdArrowOutward } from "react-icons/md";
+import '@fontsource/luckiest-guy'; 
 
 
 
@@ -51,7 +52,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Servicesp">Services</Link>
                     </li>
-                    <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg" >
+                    <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg font-luckiest" >
                         <Link to="/Quotep" className="flex ">
                             <div>GET A QUOTE </div>
                             <MdArrowOutward className="" size={20}/>
@@ -61,7 +62,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </ul>
             </div>
 
-            <button className="block md:hidden p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg text-xs">GET A QUOTE</button>
+            <button className="block md:hidden p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg text-xs font-luckiest">GET A QUOTE</button>
 
             <div onClick={handleNav} className="mobile:block md:hidden 2xl:hidden lg:hidden xl:hidden z-20">
                 {nav ? <AiOutlineClose className="text-black z-80" size={20}/> : <AiOutlineMenu className="white " size={20}/>} 
@@ -101,7 +102,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </ul>
                 <div className="ml-2" onClick={() => { handleLinkClick() }}>
                     <Link to="/Quotep">
-                        <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex ">GET A QUOTE<MdArrowOutward size={20}/></button>
+                        <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
                     </Link>
                 </div>
 
