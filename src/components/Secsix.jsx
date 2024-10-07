@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import './animations.css';
 import '@fontsource/luckiest-guy';
 import Testimonies from "./Testimonies";
+import '@fontsource/monoton';
 
 const Secsix = () => {
     const { ref, inView } = useInView({

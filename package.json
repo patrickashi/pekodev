@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/alex-brush": "^5.1.0",
     "@fontsource/creepster": "^5.1.0",
     "@fontsource/luckiest-guy": "^5.1.0",
     "@fontsource/metamorphous": "^5.1.0",
+    "@fontsource/monoton": "^5.1.0",
     "@fontsource/yatra-one": "^5.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

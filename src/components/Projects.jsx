@@ -5,6 +5,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import '@fontsource/creepster';
+import '@fontsource/alex-brush'; 
+import '@fontsource/monoton';
 import foodzbyritaimg from "../Assets/foodzbyritaimg.png";
 import remembermeimg from "../Assets/remembermeimg.png";
 import hommastonimg from "../Assets/hommastonimg.png";
@@ -55,7 +58,7 @@ const Projects = () => {
 
                 <div className='group bg-[#9333ea] w-[400px] hover:bg-[#9333ea]  rounded-2xl pb-10 px-10 md:px-4 mb-2 hover:scale-105 duration-200 cursor-pointer text-white hover:text-white'>
                     <img src={testimony.img} alt={testimony.title} className="w-full object-cover h-40 rounded-lg mt-[-40px]" />
-                    <p className=" mt-2 font-comic">our work</p>
+                    <p className=" mt-2 text-xs font-monoton">our work</p>
                     <h3 className="group-hover:text-[#f35e5e] duration-200 mt-2 font-luckiest">{testimony.name}</h3>
                     
                     <a className='text-sm '

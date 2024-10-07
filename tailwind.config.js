@@ -10,6 +10,8 @@ module.exports = {
         metamorphous: ['Metamorphous', 'serif'],
         creepster: ['Creepster', 'cursive'],
         yatra: ['Yatra One', 'Creepster'],
+        alex: ['Alex Brush', 'cursive'],
+        monoton: ['Monoton', 'cursive'],
       },
     },
   },
