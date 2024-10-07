@@ -15,7 +15,7 @@ const Testimonies = () => {
 
     {
     //   img: ohasoup,
-      name: 'Agatha L.',
+      name: 'Lipehunim.',
       description: "The website built for my business works seamlessly. Everything from the navigation to the interactive elements is intuitive and functional. It's clear a lot of thought went into making it user-friendly" ,
 
      
