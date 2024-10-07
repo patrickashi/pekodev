@@ -34,7 +34,7 @@ const  Navbar = ({ handleContactClick, location }) => {
       };
       
     return ( 
-        <div className={`flex bg-white justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 shadow-md text-black ${navBgClass}`}>
+        <div className={`flex bg-white justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
             <div>
                 <Link to="/">
                     <img className="w-40" src={pekodevnew}  size={20} alt="logo" />

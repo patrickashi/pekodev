@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import './animations.css';
 import pekodevbg from "../Assets/pekodevbg.jpg";
 import '@fontsource/luckiest-guy'; 
+import '@fontsource/yatra-one';
 
 const Sectwo = () => {
     
@@ -18,12 +19,12 @@ const Sectwo = () => {
                     <h2 className="text-5xl font-luckiest">About our company</h2>
                     <h2
                      ref={ref}
-                     className={`transition-opacity duration-1000 ease-in-out text-2xl my-6 ${inView ? 'slide-in-from-left' : 'opacity-0'}`}>We provide professional solutions to deliver safe & efficient projects</h2>
+                     className={`transition-opacity duration-1000 ease-in-out text-2xl my-6 font-yatra ${inView ? 'slide-in-from-left' : 'opacity-0'}`}>We provide professional solutions to deliver safe & efficient projects</h2>
                     <p>Welcome to pekodev, where we create custom websites and web applications tailored to your needs.
                         Our team is dedicated to delivering high-quality, visually appealing, and user-friendly digital solutions.
                         Let's bring your vision to life with creativity and integrity.
                     </p>
-                    <button className="bg-[#f35e5e] text-white px-4 py-2 rounded-lg mt-4 font-luckiest">READ MORE</button>
+                    <button className="bg-transparent backdrop-blur-md backdrop-brightness-75 text-white px-4 py-2 rounded-lg mt-4 font-luckiest">READ MORE</button>
                 </div>
                 <div
                    ref={ref}

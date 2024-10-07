@@ -2,6 +2,7 @@ import React from "react"
 import { useInView } from 'react-intersection-observer';
 import Imageslider from "./Imageslider";
 import '@fontsource/luckiest-guy';
+import Projects from "./Projects";
 
 
 
@@ -17,7 +18,7 @@ const Secfour = () => {
            ref={ref}
            className={`transition-opacity duration-1000 ease-in-out text-4xl my-2 font-luckiest ${inView ? 'slide-in-from-left' : 'opacity-0'}`}>We Develop WebServices You'll Love</h2>
            <button className="bg-[#f35e5e] text-white px-4 py-2 rounded-lg mt-4 mb-10 font-luckiest">ALL PROJECTS</button>
-           <Imageslider />
+           <Projects />
         </div>
     )
 }

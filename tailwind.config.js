@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         luckiest: ['Luckiest Guy', 'cursive'],
+        metamorphous: ['Metamorphous', 'serif'],
+        creepster: ['Creepster', 'cursive'],
+        yatra: ['Yatra One', 'Creepster'],
       },
     },
   },

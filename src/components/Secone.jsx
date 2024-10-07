@@ -4,6 +4,7 @@ import './animations.css';
 import pekodevbg from "../Assets/pekodevbg.jpg";
 import { MdArrowOutward } from "react-icons/md";
 import '@fontsource/luckiest-guy'; 
+import '@fontsource/yatra-one';
 
 const Secone = () => {
     const [showContent, setShowContent] = useState(false);
@@ -18,7 +19,7 @@ const Secone = () => {
                 <h2 className={`text-4xl mb-4 md:text-6xl font-luckiest ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Empowering Your</h2>
                 <h2 className={`text-4xl mb-4 md:text-6xl font-luckiest ${showContent ? 'h2-slide-in' : 'hidden-initially'}`}>Digital Vision</h2>
                 
-                <p className={`my-6 text-xl mt-10 md:mt-4 font-thin font ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
+                <p className={`my-6 text-xl mt-10 md:mt-4 font-yatra ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
 
                 <Link to="/Quotep">
                     <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
