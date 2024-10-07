@@ -31,7 +31,7 @@ const Secfive = () => {
                         React, Django, and Tailwind CSS for styling. Our expertise spans both front and
                         backend development, ensuring fast, secure, and scalable digital solutions
                         tailored to your needs.
-                    .</p>
+                    </p>
                 </div>
                 <div className="flex justify-start flex-col bg-[#9333ea] py-20 px-10 rounded-md">
                     <h2 className="font-luckiest mb-6">UI/UX DESIGN</h2>
