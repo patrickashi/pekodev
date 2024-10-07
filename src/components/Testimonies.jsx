@@ -22,7 +22,7 @@ const Testimonies = () => {
     },
     {
     //   img: rice1,
-      name: 'Maurine O.',
+      name: 'Maureen O.',
       description: "The speed of my new website is amazing. Pages load almost instantly, even with high-quality images and content. This has definitely improved the user experience for my customers.",
       
     },
