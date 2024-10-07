@@ -15,26 +15,26 @@ const Testimonies = () => {
 
     {
     //   img: ohasoup,
-      name: 'Jessie',
+      name: 'Agatha L.',
       description: "The website built for my business works seamlessly. Everything from the navigation to the interactive elements is intuitive and functional. It's clear a lot of thought went into making it user-friendly" ,
 
      
     },
     {
     //   img: rice1,
-      name: 'Maureen O.',
+      name: 'J. Castro.',
       description: "The speed of my new website is amazing. Pages load almost instantly, even with high-quality images and content. This has definitely improved the user experience for my customers.",
       
     },
     {
         // img: chickenstew,
-        name: 'J. Castro',
+        name: 'Maureen O.',
         description: "I’m so impressed with the clean and modern design of my site. The attention to detail in the styling is spot on, and it perfectly aligns with my brand. My visitors love the look!",
         
     },
     {
         // img: chickenstew,
-        name: 'Osha Aniseya',
+        name: 'Larry',
         description: "The page designs are professional and engaging. Every section is well-placed, making the site both visually appealing and easy to navigate. The layout makes it a pleasure to use!",
         
     },
