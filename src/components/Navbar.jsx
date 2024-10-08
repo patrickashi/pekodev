@@ -53,10 +53,10 @@ const  Navbar = ({ handleContactClick, location }) => {
                         <Link to="/Servicesp">Services</Link>
                     </li>
                     <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg font-luckiest" >
-                        <Link to="/Quotep" className="flex ">
+                        <a href="http://wa.me/2347038905049" className="flex">
                             <div>GET A QUOTE </div>
                             <MdArrowOutward className="" size={20}/>
-                        </Link>
+                        </a>
                     </li>
                     
                 </ul>
@@ -101,9 +101,9 @@ const  Navbar = ({ handleContactClick, location }) => {
                     </li>
                 </ul>
                 <div className="ml-2" onClick={() => { handleLinkClick() }}>
-                    <Link to="/Quotep">
+                    <a href="http://wa.me/2347038905049" className="flex">
                         <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
-                    </Link>
+                    </a>
                 </div>
 
                 <div className="flex gap-10 mb-auto ml-2 items-bottom mt-10">

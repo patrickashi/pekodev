@@ -20,6 +20,14 @@ const Footer = () => {
                     <div className="flex align-middle justify-end hover:text-black ">
                         <img src={pekodevnew} className="w-40" alt="logo" />
                     </div>
+                    <div className="mt-4">
+                        <form action="https://formspree.io/f/xzzbpyro" method="POST">
+                            <div className="flex flex-col gap-2 ">
+                                <input type="email" name="email" required placeholder="name@gmail.com" className="pl-2 text-xs py-1 rounded-sm" />
+                                <button type="submit" className="bg-[#9333ea] text-white rounded-sm">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div>
                     <h1 className=" mb-4 font-luckiest">Menu</h1>

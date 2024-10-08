@@ -4,6 +4,7 @@ import './animations.css';
 import pekodevbg from "../Assets/pekodevbg.jpg";
 import '@fontsource/luckiest-guy'; 
 import '@fontsource/yatra-one';
+import { Link } from "react-router-dom";
 
 const Sectwo = () => {
     
@@ -24,7 +25,10 @@ const Sectwo = () => {
                         Our team is dedicated to delivering high-quality, visually appealing, and user-friendly digital solutions.
                         Let's bring your vision to life with creativity and integrity.
                     </p>
-                    <button className="bg-transparent backdrop-blur-md backdrop-brightness-75 text-white px-4 py-2 rounded-lg mt-4 font-luckiest">READ MORE</button>
+                    <Link to="/Aboutusp">
+                        <button className="bg-transparent backdrop-blur-md backdrop-brightness-75 text-white px-4 py-2 rounded-lg mt-4 font-luckiest">READ MORE</button>
+                    </Link>
+                    
                 </div>
                 <div
                    ref={ref}

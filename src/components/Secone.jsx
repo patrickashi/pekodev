@@ -22,8 +22,11 @@ const Secone = () => {
                 <p className={`my-6 text-xl mt-10 md:mt-4 font-yatra ${showContent ? 'p-slide-in' : 'hidden-initially'}`}><i>Experienced & Reliable Developers</i></p>
 
                 <Link to="/Quotep">
-                    <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
+                    
                 </Link>
+                <a href='http://wa.me/2347038905049'>
+                    <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
+                </a>
                 
             </div>
 
