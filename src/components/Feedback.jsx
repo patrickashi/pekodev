@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import '@fontsource/monoton';
+import routerbanner from "../Assets/routerbanner.jpg";
 
 function FeedbackForm() {
   const [state, handleSubmit] = useForm("xkgnwlpp"); // Replace with your Formspree form ID
@@ -67,7 +68,8 @@ function FeedbackForm() {
 
 function Feedback() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row items-center justify-center gap-8">
+    <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row items-center justify-center gap-8"
+    style={{backgroundImage: `url(${routerbanner})`, backgroundSize: 'cover',backgroundPosition: 'center'}}>
         <div>
             <h1 className='animate-color-change mb-4 md:mb-0 text-3xl font-luckiest'>Submit Feedback</h1>
         </div>
