@@ -67,9 +67,9 @@ function FeedbackForm() {
 
 function Feedback() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row items-center justify-center gap-8">
+    <div className="min-h-screen bg-[#8686864b] flex flex-col md:flex-row items-center justify-center gap-8">
         <div>
-            <h1 className='mb-4 md:mb-0 text-3xl font-luckiest'>Submit Feedback</h1>
+            <h1 className='animate-color-change mb-4 md:mb-0 text-3xl font-luckiest'>Submit Feedback</h1>
         </div>
         <div>
             <FeedbackForm />

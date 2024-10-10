@@ -13,6 +13,16 @@ module.exports = {
         alex: ['Alex Brush', 'cursive'],
         monoton: ['Monoton', 'cursive'],
       },
+      keyframes: {
+        colorChange: {
+          '0%, 100%': { color: '#f35e5e' },
+          '50%': { color: '#9333ea' },
+        }
+      },
+      animation: {
+        'color-change': 'colorChange 3s ease-in-out infinite',
+      },
+
     },
   },
   plugins: [],
