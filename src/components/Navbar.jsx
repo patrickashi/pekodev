@@ -15,6 +15,7 @@ import '@fontsource/luckiest-guy';
 
 
 
+
 const  Navbar = ({ handleContactClick, location }) => {
     const isHomePage = location.pathname === '/';
     const navBgClass = isHomePage ? 'bg-transparent' : 'bg-black';
@@ -34,7 +35,7 @@ const  Navbar = ({ handleContactClick, location }) => {
       };
       
     return ( 
-        <div className={`flex bg-white justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
+        <div className={`flex bg-transparent justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
             <div>
                 <Link to="/">
                     <img className="w-40" src={pekodevnew}  size={20} alt="logo" />
@@ -42,7 +43,7 @@ const  Navbar = ({ handleContactClick, location }) => {
             </div>
             
             <div>
-                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-black mx-auto  ">
+                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-white mx-auto  ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Aboutusp">About us</Link>
                     </li>
@@ -65,7 +66,7 @@ const  Navbar = ({ handleContactClick, location }) => {
             <button className="block md:hidden p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg text-xs font-luckiest">GET A QUOTE</button>
 
             <div onClick={handleNav} className="mobile:block md:hidden 2xl:hidden lg:hidden xl:hidden z-20">
-                {nav ? <AiOutlineClose className="text-black z-80" size={20}/> : <AiOutlineMenu className="white " size={20}/>} 
+                {nav ? <AiOutlineClose className="text-white z-80" size={20}/> : <AiOutlineMenu className="text-white " size={20}/>} 
             </div>
 
             {/* toggle menu */}
