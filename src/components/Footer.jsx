@@ -1,5 +1,5 @@
 import React from "react"
-import pekodevnew from "../Assets/pekodevnew.png";
+import pekodev_new from "../Assets/pekodev_new.png";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -18,13 +18,13 @@ const Footer = () => {
             <div className="flex gap-16 flex-col px-2 md:px-10 lg:px-16 py-10 md:flex-row bg-[#e9d5ff] justify-between pb-4">
                 <div className="">
                     <div className="flex align-middle justify-end hover:text-black ">
-                        <img src={pekodevnew} className="w-40" alt="logo" />
+                        <img src={pekodev_new} className="w-40" alt="logo" />
                     </div>
                     <div className="mt-4">
                         <form action="https://formspree.io/f/xzzbpyro" method="POST">
                             <div className="flex flex-col gap-2 ">
                                 <input type="email" name="email" required placeholder="name@gmail.com" className="pl-2 text-xs py-1 rounded-sm" />
-                                <button type="submit" className="bg-[#9333ea] text-white rounded-sm">Submit</button>
+                                <button type="submit" className="bg-[#ff8904] text-white rounded-sm">Submit</button>
                             </div>
                         </form>
                     </div>

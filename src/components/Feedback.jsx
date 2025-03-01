@@ -59,7 +59,7 @@ function FeedbackForm() {
         />
       </div>
 
-      <button type="submit" disabled={state.submitting} className="w-full bg-[#9333ea] text-white py-2 px-4 rounded-md hover:bg-[#f35e5e]  transition duration-200">
+      <button type="submit" disabled={state.submitting} className="w-full bg-[#ff8904] text-white py-2 px-4 rounded-md hover:bg-[#f35e5e]  transition duration-200">
         Submit
       </button>
     </form>

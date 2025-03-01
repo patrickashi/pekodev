@@ -13,7 +13,7 @@ const Secsix = () => {
     return (
         <div>
             <p className='text-center  mt-10 mb-6'>
-            <span className='bg-[#9333ea] text-white px-2 py-1 rounded-md font-luckiest'>Testimonies</span>
+            <span className='bg-[#ff8904] text-white px-2 py-1 rounded-md font-luckiest'>Testimonies</span>
             </p>
             <p className='text-4xl text-center font-luckiest mb-4'>Our Happy Clients </p>
             <Testimonies />

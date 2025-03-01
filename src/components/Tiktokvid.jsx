@@ -15,13 +15,13 @@ const Tiktokvid = () => {
   }, []);
   
   return (
-    <div>
+    <div style={{ backgroundColor: '#ff8904', padding: '20px' }}>
       {/* TikTok Embed Blockquote with the video */}
       <blockquote
         className="tiktok-embed"
         cite="https://www.tiktok.com/@patrickpeko_/video/7423008425283505414"
         data-video-id="7423008425283505414"
-        style={{ maxWidth: '605px', minWidth: '325px' }}>
+        style={{ maxWidth: '605px', minWidth: '325px', margin: 'auto' }}>
         <section>
           <a
             target="_blank"

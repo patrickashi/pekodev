@@ -53,9 +53,9 @@ const Testimonies = () => {
     >
       {Testimonies.map((testimony, index) => (
         <SwiperSlide key={index}>
-          <div className="bg-white pt-10 pb-10 mx-2 md:mx-0  shadow-lg items-center flex flex-col justify-center ">
+          <div className="bg-[#ff8904] pt-10 pb-10 mx-2 md:mx-0  shadow-lg items-center flex flex-col justify-center ">
 
-                <div className='group bg-white w-[400px]  border border-gray-400 hover:border-none hover:bg-[#9333ea]  rounded-2xl pb-10 px-10 md:px-4 mb-2 hover:scale-105 duration-200 cursor-pointer hover:text-white'>
+                <div className='group text-white bg-[#ff8904] w-[400px] hover:bg-black  rounded-2xl pb-10 px-10 md:px-4 mb-2 hover:scale-105 duration-200 cursor-pointer hover:text-white'>
                     {/* <img src={testimony.img} alt={testimony.title} className="w-full object-cover h-20 rounded-lg mt-[-40px]" /> */}
                     <p className=" mt-2 font-alex">what our clients say</p>
                     <h3 className="group-hover:text-white mt-2 font-luckiest">{testimony.name}</h3>

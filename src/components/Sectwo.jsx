@@ -14,7 +14,7 @@ const Sectwo = () => {
         threshold: 0.1, // Adjust based on when you want the animation to start
     });
     return (
-        <div className="bg-[#9333ea] text-white w-full pt-32 pb-24 px-2 md:px-10 lg:px-16">
+        <div className="bg-[#ff8904] text-white w-full pt-32 pb-24 px-2 md:px-10 lg:px-16">
            <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="w-full md:w-[700px]">
                     <h2 className="text-5xl font-luckiest">About our company</h2>

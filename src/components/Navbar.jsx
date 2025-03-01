@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
 // import blackbullLogo from "../Assets/blackbullLogo.jpg"
 import { Link } from "react-router-dom";
-import pekodevnew from "../Assets/pekodevnew.png";
+import pekodev_new from "../Assets/pekodev_new.png";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -38,7 +38,7 @@ const  Navbar = ({ handleContactClick, location }) => {
         <div className={`flex bg-transparent justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
             <div>
                 <Link to="/">
-                    <img className="w-40" src={pekodevnew}  size={20} alt="logo" />
+                    <img className="w-40" src={pekodev_new}  size={20} alt="logo" />
                 </Link>
             </div>
             
@@ -53,7 +53,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/Servicesp">Services</Link>
                     </li>
-                    <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg font-luckiest" >
+                    <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#ff8904] text-white rounded-lg font-luckiest" >
                         <a href="http://wa.me/2347038905049" className="flex">
                             <div>GET A QUOTE </div>
                             <MdArrowOutward className="" size={20}/>
@@ -63,7 +63,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </ul>
             </div>
 
-            <button className="block md:hidden p-4 hover:underline hover:cursor-pointer bg-[#f35e5e] text-white rounded-lg text-xs font-luckiest">GET A QUOTE</button>
+            <button className="block md:hidden p-2 hover:underline hover:cursor-pointer bg-[#ff8904] text-white rounded-md text-xs ">GET A QUOTE</button>
 
             <div onClick={handleNav} className="mobile:block md:hidden 2xl:hidden lg:hidden xl:hidden z-20">
                 {nav ? <AiOutlineClose className="text-white z-80" size={20}/> : <AiOutlineMenu className="text-white " size={20}/>} 
@@ -74,7 +74,7 @@ const  Navbar = ({ handleContactClick, location }) => {
 
                 <div className="flex align-middle mt-4 ml-2 ">
                     <Link to="/">
-                        <img className="w-40" src={pekodevnew}  size={20} alt="logo" />
+                        <img className="w-40" src={pekodev_new}  size={20} alt="logo" />
                     </Link>
                 </div>
 
@@ -103,7 +103,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                 </ul>
                 <div className="ml-2" onClick={() => { handleLinkClick() }}>
                     <a href="http://wa.me/2347038905049" className="flex">
-                        <button className="bg-[#f35e5e] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
+                        <button className="bg-[#ff8904] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex font-luckiest">GET A QUOTE<MdArrowOutward size={20}/></button>
                     </a>
                 </div>
 

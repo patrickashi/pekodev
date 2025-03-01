@@ -17,7 +17,7 @@ const Secfour = () => {
            <h2
            ref={ref}
            className={`transition-opacity duration-1000 ease-in-out text-4xl my-2 font-luckiest ${inView ? 'slide-in-from-left' : 'opacity-0'}`}>We Develop WebServices You'll Love</h2>
-           <button className="bg-[#f35e5e] text-white px-4 py-2 rounded-lg mt-4 mb-10 font-luckiest">ALL PROJECTS</button>
+           <button className="bg-[#ff8904] text-white px-4 py-2 rounded-lg mt-4 mb-10 font-luckiest">ALL PROJECTS</button>
            <Projects />
         </div>
     )

@@ -56,7 +56,7 @@ const Projects = () => {
         <SwiperSlide key={index}>
           <div className="bg-[#e9d5ff] pt-10 pb-10 mx-2 md:mx-0  shadow-lg items-center flex flex-col justify-center ">
 
-                <div className='group bg-[#9333ea] w-[400px] hover:bg-[#9333ea]  rounded-2xl pb-10 px-10 md:px-4 mb-2 hover:scale-105 duration-200 cursor-pointer text-white hover:text-white'>
+                <div className='group bg-black w-[400px] hover:bg-[#ff8904]  rounded-2xl pb-10 px-10 md:px-4 mb-2 hover:scale-105 duration-200 cursor-pointer text-white hover:text-white'>
                     <img src={testimony.img} alt={testimony.title} className="w-full object-cover h-40 rounded-lg mt-[-40px]" />
                     <p className=" mt-2 text-xs font-monoton">our work</p>
                     <h3 className="group-hover:text-[#f35e5e] duration-200 mt-2 font-luckiest">{testimony.name}</h3>
